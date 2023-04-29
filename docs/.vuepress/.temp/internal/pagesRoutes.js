@@ -1,0 +1,18 @@
+export const pagesRoutes = [
+  ["v-8daa1a0e","/",{"title":""},["/index.html","/README.md"]],
+  ["v-2c35f564","/Environment/Docker.html",{"title":""},["/Environment/Docker","/Environment/Docker.md"]],
+  ["v-13b1ed7c","/Environment/Git.html",{"title":""},["/Environment/Git","/Environment/Git.md"]],
+  ["v-6018323d","/Environment/JDK.html",{"title":""},["/Environment/JDK","/Environment/JDK.md"]],
+  ["v-3a1b4e23","/Environment/Maven.html",{"title":""},["/Environment/Maven","/Environment/Maven.md"]],
+  ["v-2c565399","/Environment/Nodejs.html",{"title":""},["/Environment/Nodejs","/Environment/Nodejs.md"]],
+  ["v-e25cabd6","/Environment/",{"title":"环境开发"},["/Environment/index.html","/Environment/README.md"]],
+  ["v-011cd96c","/Command/Markdown/LaTex.html",{"title":""},["/Command/Markdown/LaTex","/Command/Markdown/LaTex.md"]],
+  ["v-4eb674b3","/Command/Markdown/mermaid.html",{"title":""},["/Command/Markdown/mermaid","/Command/Markdown/mermaid.md"]],
+  ["v-3d30b620","/Command/Linux/cat%EF%BC%9A%E6%9F%A5%E7%9C%8B.html",{"title":""},["/Command/Linux/cat：查看.html","/Command/Linux/cat%EF%BC%9A%E6%9F%A5%E7%9C%8B","/Command/Linux/cat：查看.md","/Command/Linux/cat%EF%BC%9A%E6%9F%A5%E7%9C%8B.md"]],
+  ["v-8b71481a","/Command/Linux/chown%EF%BC%9A%E6%9B%B4%E6%94%B9%E6%89%80%E6%9C%89%E8%80%85.html",{"title":""},["/Command/Linux/chown：更改所有者.html","/Command/Linux/chown%EF%BC%9A%E6%9B%B4%E6%94%B9%E6%89%80%E6%9C%89%E8%80%85","/Command/Linux/chown：更改所有者.md","/Command/Linux/chown%EF%BC%9A%E6%9B%B4%E6%94%B9%E6%89%80%E6%9C%89%E8%80%85.md"]],
+  ["v-003502f6","/Command/Linux/cp%EF%BC%9A%E5%A4%8D%E5%88%B6.html",{"title":""},["/Command/Linux/cp：复制.html","/Command/Linux/cp%EF%BC%9A%E5%A4%8D%E5%88%B6","/Command/Linux/cp：复制.md","/Command/Linux/cp%EF%BC%9A%E5%A4%8D%E5%88%B6.md"]],
+  ["v-2321a13e","/Command/Linux/du%EF%BC%9A%E6%9F%A5%E7%9C%8B%E5%A4%A7%E5%B0%8F.html",{"title":""},["/Command/Linux/du：查看大小.html","/Command/Linux/du%EF%BC%9A%E6%9F%A5%E7%9C%8B%E5%A4%A7%E5%B0%8F","/Command/Linux/du：查看大小.md","/Command/Linux/du%EF%BC%9A%E6%9F%A5%E7%9C%8B%E5%A4%A7%E5%B0%8F.md"]],
+  ["v-1966ab2a","/Command/Linux/mount%EF%BC%9A%E7%A3%81%E7%9B%98%E6%8C%82%E8%BD%BD.html",{"title":""},["/Command/Linux/mount：磁盘挂载.html","/Command/Linux/mount%EF%BC%9A%E7%A3%81%E7%9B%98%E6%8C%82%E8%BD%BD","/Command/Linux/mount：磁盘挂载.md","/Command/Linux/mount%EF%BC%9A%E7%A3%81%E7%9B%98%E6%8C%82%E8%BD%BD.md"]],
+  ["v-76ffe119","/Command/Linux/zip%EF%BC%9A%E5%8E%8B%E7%BC%A9.html",{"title":""},["/Command/Linux/zip：压缩.html","/Command/Linux/zip%EF%BC%9A%E5%8E%8B%E7%BC%A9","/Command/Linux/zip：压缩.md","/Command/Linux/zip%EF%BC%9A%E5%8E%8B%E7%BC%A9.md"]],
+  ["v-3706649a","/404.html",{"title":""},["/404"]],
+]

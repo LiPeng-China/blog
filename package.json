@@ -1,0 +1,19 @@
+{
+  "name": "TaiyiBlog",
+  "version": "1.0.0",
+  "description": "太一笔记",
+  "main": "index.js",
+  "repository": "git@github.com:LiPeng-China/TaiyiBlog.git",
+  "author": "taiyi <pengli.cn@outlook.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.61"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "vuepress-theme-hope": "^2.0.0-beta.206"
+  }
+}
