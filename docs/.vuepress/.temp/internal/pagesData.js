@@ -1,6 +1,10 @@
 export const pagesData = {
   // path: /
   "v-8daa1a0e": () => import(/* webpackChunkName: "v-8daa1a0e" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/index.html.js").then(({ data }) => data),
+  // path: /DesignPattren/
+  "v-24d45ddc": () => import(/* webpackChunkName: "v-24d45ddc" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/DesignPattren/index.html.js").then(({ data }) => data),
+  // path: /DesignPattren/SOLID.html
+  "v-e502a7ec": () => import(/* webpackChunkName: "v-e502a7ec" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/DesignPattren/SOLID.html.js").then(({ data }) => data),
   // path: /Environment/Docker.html
   "v-2c35f564": () => import(/* webpackChunkName: "v-2c35f564" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Environment/Docker.html.js").then(({ data }) => data),
   // path: /Environment/Git.html
@@ -13,10 +17,6 @@ export const pagesData = {
   "v-2c565399": () => import(/* webpackChunkName: "v-2c565399" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Environment/Nodejs.html.js").then(({ data }) => data),
   // path: /Environment/
   "v-e25cabd6": () => import(/* webpackChunkName: "v-e25cabd6" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Environment/index.html.js").then(({ data }) => data),
-  // path: /DesignPattren/
-  "v-24d45ddc": () => import(/* webpackChunkName: "v-24d45ddc" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/DesignPattren/index.html.js").then(({ data }) => data),
-  // path: /DesignPattren/SOLID.html
-  "v-e502a7ec": () => import(/* webpackChunkName: "v-e502a7ec" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/DesignPattren/SOLID.html.js").then(({ data }) => data),
   // path: /Command/Linux/
   "v-f8f2cf10": () => import(/* webpackChunkName: "v-f8f2cf10" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Command/Linux/index.html.js").then(({ data }) => data),
   // path: /Command/Linux/cat%EF%BC%9A%E6%9F%A5%E7%9C%8B.html
