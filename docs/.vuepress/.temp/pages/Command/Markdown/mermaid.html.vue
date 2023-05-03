@@ -21,13 +21,7 @@ RL</p>
     C<span class="token punctuation">{</span>菱形<span class="token punctuation">}</span>
     D<span class="token variable"><span class="token punctuation">((</span>圆<span class="token punctuation">))</span></span>
     D<span class="token operator">></span>右向旗帜<span class="token punctuation">]</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-mermaid line-numbers-mode" data-ext="mermaid"><pre v-pre class="language-mermaid"><code><span class="token keyword">graph</span> TB
-    A<span class="token text string">(圆角矩形)</span>
-    B<span class="token text string">[矩形]</span>
-    C<span class="token text string">{菱形}</span>
-    D<span class="token text string">((圆))</span>
-    E<span class="token text string">>右向旗帜]</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="线段的画法" tabindex="-1"><a class="header-anchor" href="#线段的画法" aria-hidden="true">#</a> 线段的画法</h3>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><Mermaid id="mermaid-23" code="eJxLL0osyFAIceJSAAJHjadz2l4sn/R8/sqnexdpgsWcoiG8WDDPufpF/0YgrxbMc9EAadCEKHS1e9q/+emEic+mT3+6Y04sFwCGgyYN"></Mermaid><h3 id="线段的画法" tabindex="-1"><a class="header-anchor" href="#线段的画法" aria-hidden="true">#</a> 线段的画法</h3>
 <div class="language-bash line-numbers-mode" data-ext="sh"><pre v-pre class="language-bash"><code>graph TB
 	<span class="token comment"># 实线</span>
 	P --- Q
@@ -45,16 +39,7 @@ RL</p>
 	S --Y--- T
 	<span class="token comment"># 文本虚线</span>
 	X -.Y.- Z
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-mermaid line-numbers-mode" data-ext="mermaid"><pre v-pre class="language-mermaid"><code><span class="token keyword">graph</span> TB
-	P <span class="token arrow operator">---</span> Q
-	A <span class="token arrow operator">-.-</span> B
-	C <span class="token arrow operator">--></span> D
-	E <span class="token arrow operator">-.-></span> F
-	G <span class="token inter-arrow-label"><span class="token arrow-head arrow operator">--</span><span class="token label property">Y</span><span class="token arrow operator">--></span></span> H
-	I <span class="token inter-arrow-label"><span class="token arrow-head arrow operator">-.</span><span class="token label property">N</span><span class="token arrow operator">.-></span></span> K
-	S <span class="token inter-arrow-label"><span class="token arrow-head arrow operator">--</span><span class="token label property">Y</span><span class="token arrow operator">---</span></span> T
-	X <span class="token inter-arrow-label"><span class="token arrow-head arrow operator">-.</span><span class="token label property">Y</span><span class="token arrow operator">.-</span></span> Z
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="三、类图" tabindex="-1"><a class="header-anchor" href="#三、类图" aria-hidden="true">#</a> 三、类图</h2>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><Mermaid id="mermaid-28" code="eJwlzLsJgEAQBNB4poppYC3hwL8iiOIFnpmRhmL/gXuYvuBd7/ncihWxyMy0EqWsMLnULkEN0WYJ6ojeKWUdiNF1zj4R2++mSOzuyYeDH1G3EWA="></Mermaid><h2 id="三、类图" tabindex="-1"><a class="header-anchor" href="#三、类图" aria-hidden="true">#</a> 三、类图</h2>
 <h3 id="概述" tabindex="-1"><a class="header-anchor" href="#概述" aria-hidden="true">#</a> 概述</h3>
 <p>在类图中，一个类由三部分组成：</p>
 <ul>
@@ -70,23 +55,14 @@ RL</p>
 <div class="language-bash line-numbers-mode" data-ext="sh"><pre v-pre class="language-bash"><code>classDiagram
 	class User
 	Object <span class="token operator">&lt;</span><span class="token operator">|</span>-- People
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-mermaid line-numbers-mode" data-ext="mermaid"><pre v-pre class="language-mermaid"><code><span class="token keyword">classDiagram</span>
-	<span class="token keyword">class</span> User
-	Object <span class="token arrow operator">&lt;|--</span> People
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="类成员定义" tabindex="-1"><a class="header-anchor" href="#类成员定义" aria-hidden="true">#</a> 类成员定义</h3>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><Mermaid id="mermaid-63" code="eJxLzkksLnbJTEwvSszl4gTzFEKLU4u4OP2TslKTSxRsanR1FQJS8wtyUrkAZdsO3w=="></Mermaid><h3 id="类成员定义" tabindex="-1"><a class="header-anchor" href="#类成员定义" aria-hidden="true">#</a> 类成员定义</h3>
 <div class="language-bash line-numbers-mode" data-ext="sh"><pre v-pre class="language-bash"><code>classDiagram
 	class User
 	User: <span class="token parameter variable">-String</span> name
 	User: +int age
 	User: +getName<span class="token punctuation">(</span><span class="token punctuation">)</span>
 	User: +setName<span class="token punctuation">(</span>String name<span class="token punctuation">)</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-mermaid line-numbers-mode" data-ext="mermaid"><pre v-pre class="language-mermaid"><code><span class="token keyword">classDiagram</span>
-	<span class="token keyword">class</span> User
-	User<span class="token operator">:</span> -String name
-	User<span class="token operator">:</span> +int age
-	User<span class="token operator">:</span> +getName<span class="token punctuation">(</span><span class="token punctuation">)</span>
-	User<span class="token operator">:</span> +setName<span class="token text string">(String name)</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-bash line-numbers-mode" data-ext="sh"><pre v-pre class="language-bash"><code>classDiagram
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><Mermaid id="mermaid-68" code="eJxLzkksLnbJTEwvSszl4gTzFEKLU4u4OEGklYJucElRZl66Ql5ibipMTDszr0QhMR3BT08t8QPKa2jCRYqhIki6NbkAjFMi1A=="></Mermaid><div class="language-bash line-numbers-mode" data-ext="sh"><pre v-pre class="language-bash"><code>classDiagram
 	class User<span class="token punctuation">{</span>
 		<span class="token operator">&lt;&lt;</span>interface<span class="token operator">>></span>
 		<span class="token parameter variable">-String</span> name
@@ -94,15 +70,7 @@ RL</p>
 		+getName<span class="token punctuation">(</span><span class="token punctuation">)</span> String
 		+setName<span class="token punctuation">(</span>String Name<span class="token punctuation">)</span>
 	<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-mermaid line-numbers-mode" data-ext="mermaid"><pre v-pre class="language-mermaid"><code><span class="token keyword">classDiagram</span>
-	<span class="token keyword">class</span> User<span class="token punctuation">{</span>
-		<span class="token annotation important">&lt;&lt;interface>></span>
-		-String name
-		+int age
-		+getName<span class="token punctuation">(</span><span class="token punctuation">)</span> String
-		+setName<span class="token text string">(String Name)</span>
-	<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="类之间的关系" tabindex="-1"><a class="header-anchor" href="#类之间的关系" aria-hidden="true">#</a> 类之间的关系</h3>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><Mermaid id="mermaid-70" code="eJxLzkksLnbJTEwvSszl4gTzFEKLU4uquTg5bWwy80pSi9ISk1Pt7IB83eCSosy8dIW8xNxUIFcbKKuQmA5mpqeW+AFFNTQVIGpAYsVQMaguEFuTi7OWCwBCISNX"></Mermaid><h3 id="类之间的关系" tabindex="-1"><a class="header-anchor" href="#类之间的关系" aria-hidden="true">#</a> 类之间的关系</h3>
 <div class="language-bash line-numbers-mode" data-ext="sh"><pre v-pre class="language-bash"><code>``<span class="token variable"><span class="token variable">`</span>mermaid
 classDiagram
   classA --<span class="token operator">|</span><span class="token operator">></span> classB <span class="token builtin class-name">:</span> 继承
@@ -114,15 +82,6 @@ classDiagram
   classM <span class="token punctuation">..</span><span class="token operator">|</span><span class="token operator">></span> classN <span class="token builtin class-name">:</span> 实现
   classO <span class="token punctuation">..</span> classP <span class="token builtin class-name">:</span> 虚线连接
 <span class="token variable">`</span></span>``
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-mermaid line-numbers-mode" data-ext="mermaid"><pre v-pre class="language-mermaid"><code><span class="token keyword">classDiagram</span>
-  classA <span class="token arrow operator">--|></span> classB <span class="token operator">:</span> 继承
-  classC <span class="token arrow operator">--*</span> classD <span class="token operator">:</span> 组成
-  classE <span class="token arrow operator">--o</span> classF <span class="token operator">:</span> 集合
-  classG <span class="token arrow operator">--></span> classH <span class="token operator">:</span> 关联
-  classI <span class="token arrow operator">--</span> classJ <span class="token operator">:</span> 实线连接
-  classK <span class="token arrow operator">..></span> classL <span class="token operator">:</span> 依赖
-  classM <span class="token arrow operator">..|></span> classN <span class="token operator">:</span> 实现
-  classO <span class="token arrow operator">..</span> classP <span class="token operator">:</span> 虚线连接
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></div></template>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><Mermaid id="mermaid-75" code="eJxLzkksLnbJTEwvSszlUlAAcx0VdHVr7CBsJwUrhee7lz/r3A+TdQbKakGYLmDJlmcdE2CSrkDJfAjTDSj5cnbb0wkdMEl3oCTUWA+g5NPWzS8ap8AkPYGSEJYXSG7dvOe79r/YP+9Z31KYCm8FPT2odh+gkif75r7YOg0m6QuUhLnZD2pA3waYrD9QFsIKAMq9mDkLYTgA7jVjiQ=="></Mermaid></div></template>
 
 
