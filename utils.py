@@ -27,7 +27,7 @@ def print_file_list_plus(folder_path):
     print('],')
 
 def main():
-    folder_path = "docs/Command/Markdown/"
+    folder_path = "docs/Java/FunctionalProgramming/"
 
     # print_file_list(folder_path)
     print_file_list_plus(folder_path)

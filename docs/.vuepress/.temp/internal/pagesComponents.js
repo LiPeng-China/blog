@@ -37,10 +37,28 @@ export const pagesComponents = {
   "v-011cd96c": defineAsyncComponent(() => import(/* webpackChunkName: "v-011cd96c" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Command/Markdown/LaTex.html.vue")),
   // path: /Command/Markdown/mermaid.html
   "v-4eb674b3": defineAsyncComponent(() => import(/* webpackChunkName: "v-4eb674b3" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Command/Markdown/mermaid.html.vue")),
+  // path: /Java/FunctionalProgramming/01_Introduction.html
+  "v-429c3dae": defineAsyncComponent(() => import(/* webpackChunkName: "v-429c3dae" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Java/FunctionalProgramming/01_Introduction.html.vue")),
+  // path: /Java/FunctionalProgramming/02_Lambda.html
+  "v-0113083c": defineAsyncComponent(() => import(/* webpackChunkName: "v-0113083c" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Java/FunctionalProgramming/02_Lambda.html.vue")),
+  // path: /Java/FunctionalProgramming/03_Stream.html
+  "v-97221b6c": defineAsyncComponent(() => import(/* webpackChunkName: "v-97221b6c" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Java/FunctionalProgramming/03_Stream.html.vue")),
+  // path: /Java/FunctionalProgramming/04_Optional.html
+  "v-3e31572a": defineAsyncComponent(() => import(/* webpackChunkName: "v-3e31572a" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Java/FunctionalProgramming/04_Optional.html.vue")),
+  // path: /Java/FunctionalProgramming/05_FunctionalInterface.html
+  "v-dd506de0": defineAsyncComponent(() => import(/* webpackChunkName: "v-dd506de0" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Java/FunctionalProgramming/05_FunctionalInterface.html.vue")),
+  // path: /Java/FunctionalProgramming/06_MethodReference.html
+  "v-170b35bb": defineAsyncComponent(() => import(/* webpackChunkName: "v-170b35bb" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Java/FunctionalProgramming/06_MethodReference.html.vue")),
+  // path: /Java/FunctionalProgramming/07_ParallelStream.html
+  "v-9e4cf272": defineAsyncComponent(() => import(/* webpackChunkName: "v-9e4cf272" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Java/FunctionalProgramming/07_ParallelStream.html.vue")),
   // path: /404.html
   "v-3706649a": defineAsyncComponent(() => import(/* webpackChunkName: "v-3706649a" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/404.html.vue")),
   // path: /Command/
   "v-92cd4f46": defineAsyncComponent(() => import(/* webpackChunkName: "v-92cd4f46" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Command/index.html.vue")),
   // path: /Command/Markdown/
   "v-3a5cfd7a": defineAsyncComponent(() => import(/* webpackChunkName: "v-3a5cfd7a" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Command/Markdown/index.html.vue")),
+  // path: /Java/FunctionalProgramming/
+  "v-90e067e6": defineAsyncComponent(() => import(/* webpackChunkName: "v-90e067e6" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Java/FunctionalProgramming/index.html.vue")),
+  // path: /Java/
+  "v-1303aad4": defineAsyncComponent(() => import(/* webpackChunkName: "v-1303aad4" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Java/index.html.vue")),
 }

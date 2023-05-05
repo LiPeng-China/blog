@@ -22,4 +22,11 @@ export const navBar = navbar([
     text: "设计模式",
     link: "/DesignPattren/",
   },
+  {
+    text: "Java",
+    children: [
+      { text: "函数式编程", link: "/Java/FunctionalProgramming/" },
+      { text: "JVM虚拟机", link: "/Java/JVM/" },
+    ],
+  },
 ]);
