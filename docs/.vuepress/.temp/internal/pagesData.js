@@ -1,10 +1,6 @@
 export const pagesData = {
   // path: /
   "v-8daa1a0e": () => import(/* webpackChunkName: "v-8daa1a0e" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/index.html.js").then(({ data }) => data),
-  // path: /DesignPattren/
-  "v-24d45ddc": () => import(/* webpackChunkName: "v-24d45ddc" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/DesignPattren/index.html.js").then(({ data }) => data),
-  // path: /DesignPattren/SOLID.html
-  "v-e502a7ec": () => import(/* webpackChunkName: "v-e502a7ec" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/DesignPattren/SOLID.html.js").then(({ data }) => data),
   // path: /Environment/Docker.html
   "v-2c35f564": () => import(/* webpackChunkName: "v-2c35f564" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Environment/Docker.html.js").then(({ data }) => data),
   // path: /Environment/Git.html
@@ -17,6 +13,10 @@ export const pagesData = {
   "v-2c565399": () => import(/* webpackChunkName: "v-2c565399" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Environment/Nodejs.html.js").then(({ data }) => data),
   // path: /Environment/
   "v-e25cabd6": () => import(/* webpackChunkName: "v-e25cabd6" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Environment/index.html.js").then(({ data }) => data),
+  // path: /DesignPattren/
+  "v-24d45ddc": () => import(/* webpackChunkName: "v-24d45ddc" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/DesignPattren/index.html.js").then(({ data }) => data),
+  // path: /DesignPattren/SOLID.html
+  "v-e502a7ec": () => import(/* webpackChunkName: "v-e502a7ec" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/DesignPattren/SOLID.html.js").then(({ data }) => data),
   // path: /Command/Linux/
   "v-f8f2cf10": () => import(/* webpackChunkName: "v-f8f2cf10" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Command/Linux/index.html.js").then(({ data }) => data),
   // path: /Command/Linux/cat%EF%BC%9A%E6%9F%A5%E7%9C%8B.html
@@ -35,6 +35,10 @@ export const pagesData = {
   "v-011cd96c": () => import(/* webpackChunkName: "v-011cd96c" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Command/Markdown/LaTex.html.js").then(({ data }) => data),
   // path: /Command/Markdown/mermaid.html
   "v-4eb674b3": () => import(/* webpackChunkName: "v-4eb674b3" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Command/Markdown/mermaid.html.js").then(({ data }) => data),
+  // path: /DesignPattren/CreationalPattern/AbstractFactory.html
+  "v-448fe1f6": () => import(/* webpackChunkName: "v-448fe1f6" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/DesignPattren/CreationalPattern/AbstractFactory.html.js").then(({ data }) => data),
+  // path: /DesignPattren/CreationalPattern/FactoryMethod.html
+  "v-d575bdda": () => import(/* webpackChunkName: "v-d575bdda" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/DesignPattren/CreationalPattern/FactoryMethod.html.js").then(({ data }) => data),
   // path: /Java/FunctionalProgramming/01_Introduction.html
   "v-429c3dae": () => import(/* webpackChunkName: "v-429c3dae" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Java/FunctionalProgramming/01_Introduction.html.js").then(({ data }) => data),
   // path: /Java/FunctionalProgramming/02_Lambda.html
@@ -49,14 +53,26 @@ export const pagesData = {
   "v-170b35bb": () => import(/* webpackChunkName: "v-170b35bb" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Java/FunctionalProgramming/06_MethodReference.html.js").then(({ data }) => data),
   // path: /Java/FunctionalProgramming/07_ParallelStream.html
   "v-9e4cf272": () => import(/* webpackChunkName: "v-9e4cf272" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Java/FunctionalProgramming/07_ParallelStream.html.js").then(({ data }) => data),
+  // path: /DataBase/MySQL/Basis/01_select%E6%89%A7%E8%A1%8C%E6%B5%81%E7%A8%8B.html
+  "v-5c64ae62": () => import(/* webpackChunkName: "v-5c64ae62" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/DataBase/MySQL/Basis/01_select执行流程.html.js").then(({ data }) => data),
+  // path: /DataBase/MySQL/Basis/02_%E5%A6%82%E4%BD%95%E5%AD%98%E5%82%A8.html
+  "v-370fb760": () => import(/* webpackChunkName: "v-370fb760" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/DataBase/MySQL/Basis/02_如何存储.html.js").then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => import(/* webpackChunkName: "v-3706649a" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/404.html.js").then(({ data }) => data),
   // path: /Command/
   "v-92cd4f46": () => import(/* webpackChunkName: "v-92cd4f46" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Command/index.html.js").then(({ data }) => data),
   // path: /Command/Markdown/
   "v-3a5cfd7a": () => import(/* webpackChunkName: "v-3a5cfd7a" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Command/Markdown/index.html.js").then(({ data }) => data),
+  // path: /DesignPattren/CreationalPattern/
+  "v-0ba01b05": () => import(/* webpackChunkName: "v-0ba01b05" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/DesignPattren/CreationalPattern/index.html.js").then(({ data }) => data),
   // path: /Java/FunctionalProgramming/
   "v-90e067e6": () => import(/* webpackChunkName: "v-90e067e6" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Java/FunctionalProgramming/index.html.js").then(({ data }) => data),
   // path: /Java/
   "v-1303aad4": () => import(/* webpackChunkName: "v-1303aad4" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Java/index.html.js").then(({ data }) => data),
+  // path: /DataBase/MySQL/Basis/
+  "v-2b0c46ce": () => import(/* webpackChunkName: "v-2b0c46ce" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/DataBase/MySQL/Basis/index.html.js").then(({ data }) => data),
+  // path: /DataBase/MySQL/
+  "v-130c72c8": () => import(/* webpackChunkName: "v-130c72c8" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/DataBase/MySQL/index.html.js").then(({ data }) => data),
+  // path: /DataBase/
+  "v-5e9ca2fb": () => import(/* webpackChunkName: "v-5e9ca2fb" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/DataBase/index.html.js").then(({ data }) => data),
 }

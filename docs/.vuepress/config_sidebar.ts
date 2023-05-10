@@ -13,7 +13,14 @@ export const sideBar = sidebar({
   // 设计模式
   "/DesignPattren/": [
     { text: "六大原则", link: "SOLID" },
-    { text: "创造模式", collapsible: true, children: [] },
+    {
+      text: "创造模式",
+      collapsible: true,
+      children: [
+        { text: "工厂方法", link: "CreationalPattern/FactoryMethod.md" },
+        { text: "抽象工厂", link: "CreationalPattern/AbstractFactory.md" },
+      ],
+    },
     { text: "行为模式", collapsible: true, children: [] },
     { text: "结构模式", collapsible: true, children: [] },
   ],
@@ -41,4 +48,21 @@ export const sideBar = sidebar({
     { text: "07:并行流", link: "07_ParallelStream.md" },
   ],
   "/Java/JVM": [],
+
+  // 数据库
+  "/DataBase/MySQL/": [
+    {
+      text: "基础",
+      collapsible: true,
+      children: [
+        { text: "select执行流程", link: "Basis/01_select执行流程.md" },
+        { text: "如何存储", link: "Basis/02_如何存储.md" },
+      ],
+    },
+    { text: "索引", collapsible: true, children: [] },
+    { text: "锁", collapsible: true, children: [] },
+    { text: "日志", collapsible: true, children: [] },
+    { text: "内存", collapsible: true, children: [] },
+    { text: "事务", collapsible: true, children: [] },
+  ],
 });

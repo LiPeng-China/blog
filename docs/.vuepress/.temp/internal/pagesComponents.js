@@ -3,10 +3,6 @@ import { defineAsyncComponent } from 'vue'
 export const pagesComponents = {
   // path: /
   "v-8daa1a0e": defineAsyncComponent(() => import(/* webpackChunkName: "v-8daa1a0e" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/index.html.vue")),
-  // path: /DesignPattren/
-  "v-24d45ddc": defineAsyncComponent(() => import(/* webpackChunkName: "v-24d45ddc" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/DesignPattren/index.html.vue")),
-  // path: /DesignPattren/SOLID.html
-  "v-e502a7ec": defineAsyncComponent(() => import(/* webpackChunkName: "v-e502a7ec" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/DesignPattren/SOLID.html.vue")),
   // path: /Environment/Docker.html
   "v-2c35f564": defineAsyncComponent(() => import(/* webpackChunkName: "v-2c35f564" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Environment/Docker.html.vue")),
   // path: /Environment/Git.html
@@ -19,6 +15,10 @@ export const pagesComponents = {
   "v-2c565399": defineAsyncComponent(() => import(/* webpackChunkName: "v-2c565399" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Environment/Nodejs.html.vue")),
   // path: /Environment/
   "v-e25cabd6": defineAsyncComponent(() => import(/* webpackChunkName: "v-e25cabd6" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Environment/index.html.vue")),
+  // path: /DesignPattren/
+  "v-24d45ddc": defineAsyncComponent(() => import(/* webpackChunkName: "v-24d45ddc" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/DesignPattren/index.html.vue")),
+  // path: /DesignPattren/SOLID.html
+  "v-e502a7ec": defineAsyncComponent(() => import(/* webpackChunkName: "v-e502a7ec" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/DesignPattren/SOLID.html.vue")),
   // path: /Command/Linux/
   "v-f8f2cf10": defineAsyncComponent(() => import(/* webpackChunkName: "v-f8f2cf10" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Command/Linux/index.html.vue")),
   // path: /Command/Linux/cat%EF%BC%9A%E6%9F%A5%E7%9C%8B.html
@@ -37,6 +37,10 @@ export const pagesComponents = {
   "v-011cd96c": defineAsyncComponent(() => import(/* webpackChunkName: "v-011cd96c" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Command/Markdown/LaTex.html.vue")),
   // path: /Command/Markdown/mermaid.html
   "v-4eb674b3": defineAsyncComponent(() => import(/* webpackChunkName: "v-4eb674b3" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Command/Markdown/mermaid.html.vue")),
+  // path: /DesignPattren/CreationalPattern/AbstractFactory.html
+  "v-448fe1f6": defineAsyncComponent(() => import(/* webpackChunkName: "v-448fe1f6" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/DesignPattren/CreationalPattern/AbstractFactory.html.vue")),
+  // path: /DesignPattren/CreationalPattern/FactoryMethod.html
+  "v-d575bdda": defineAsyncComponent(() => import(/* webpackChunkName: "v-d575bdda" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/DesignPattren/CreationalPattern/FactoryMethod.html.vue")),
   // path: /Java/FunctionalProgramming/01_Introduction.html
   "v-429c3dae": defineAsyncComponent(() => import(/* webpackChunkName: "v-429c3dae" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Java/FunctionalProgramming/01_Introduction.html.vue")),
   // path: /Java/FunctionalProgramming/02_Lambda.html
@@ -51,14 +55,26 @@ export const pagesComponents = {
   "v-170b35bb": defineAsyncComponent(() => import(/* webpackChunkName: "v-170b35bb" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Java/FunctionalProgramming/06_MethodReference.html.vue")),
   // path: /Java/FunctionalProgramming/07_ParallelStream.html
   "v-9e4cf272": defineAsyncComponent(() => import(/* webpackChunkName: "v-9e4cf272" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Java/FunctionalProgramming/07_ParallelStream.html.vue")),
+  // path: /DataBase/MySQL/Basis/01_select%E6%89%A7%E8%A1%8C%E6%B5%81%E7%A8%8B.html
+  "v-5c64ae62": defineAsyncComponent(() => import(/* webpackChunkName: "v-5c64ae62" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/DataBase/MySQL/Basis/01_select执行流程.html.vue")),
+  // path: /DataBase/MySQL/Basis/02_%E5%A6%82%E4%BD%95%E5%AD%98%E5%82%A8.html
+  "v-370fb760": defineAsyncComponent(() => import(/* webpackChunkName: "v-370fb760" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/DataBase/MySQL/Basis/02_如何存储.html.vue")),
   // path: /404.html
   "v-3706649a": defineAsyncComponent(() => import(/* webpackChunkName: "v-3706649a" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/404.html.vue")),
   // path: /Command/
   "v-92cd4f46": defineAsyncComponent(() => import(/* webpackChunkName: "v-92cd4f46" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Command/index.html.vue")),
   // path: /Command/Markdown/
   "v-3a5cfd7a": defineAsyncComponent(() => import(/* webpackChunkName: "v-3a5cfd7a" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Command/Markdown/index.html.vue")),
+  // path: /DesignPattren/CreationalPattern/
+  "v-0ba01b05": defineAsyncComponent(() => import(/* webpackChunkName: "v-0ba01b05" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/DesignPattren/CreationalPattern/index.html.vue")),
   // path: /Java/FunctionalProgramming/
   "v-90e067e6": defineAsyncComponent(() => import(/* webpackChunkName: "v-90e067e6" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Java/FunctionalProgramming/index.html.vue")),
   // path: /Java/
   "v-1303aad4": defineAsyncComponent(() => import(/* webpackChunkName: "v-1303aad4" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Java/index.html.vue")),
+  // path: /DataBase/MySQL/Basis/
+  "v-2b0c46ce": defineAsyncComponent(() => import(/* webpackChunkName: "v-2b0c46ce" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/DataBase/MySQL/Basis/index.html.vue")),
+  // path: /DataBase/MySQL/
+  "v-130c72c8": defineAsyncComponent(() => import(/* webpackChunkName: "v-130c72c8" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/DataBase/MySQL/index.html.vue")),
+  // path: /DataBase/
+  "v-5e9ca2fb": defineAsyncComponent(() => import(/* webpackChunkName: "v-5e9ca2fb" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/DataBase/index.html.vue")),
 }

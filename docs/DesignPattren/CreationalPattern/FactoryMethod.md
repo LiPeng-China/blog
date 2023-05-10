@@ -63,6 +63,7 @@ public class FactoryMethod {
 }
 ```
 
-## 类图
+## UML图
 
 ![image-20230508202939988](./assets/FactoryMethod.png)
+
