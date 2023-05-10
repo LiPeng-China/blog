@@ -21,7 +21,11 @@ export const sideBar = sidebar({
         { text: "抽象工厂", link: "CreationalPattern/AbstractFactory.md" },
       ],
     },
-    { text: "行为模式", collapsible: true, children: [] },
+    {
+      text: "行为模式",
+      collapsible: true,
+      children: [{ text: "观察者模式", link: "BehavioralPattern/Observer.md" }],
+    },
     { text: "结构模式", collapsible: true, children: [] },
   ],
   // 命令手册

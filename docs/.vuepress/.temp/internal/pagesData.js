@@ -11,14 +11,12 @@ export const pagesData = {
   "v-3a1b4e23": () => import(/* webpackChunkName: "v-3a1b4e23" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Environment/Maven.html.js").then(({ data }) => data),
   // path: /Environment/Nodejs.html
   "v-2c565399": () => import(/* webpackChunkName: "v-2c565399" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Environment/Nodejs.html.js").then(({ data }) => data),
-  // path: /Environment/
-  "v-e25cabd6": () => import(/* webpackChunkName: "v-e25cabd6" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Environment/index.html.js").then(({ data }) => data),
-  // path: /DesignPattren/
-  "v-24d45ddc": () => import(/* webpackChunkName: "v-24d45ddc" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/DesignPattren/index.html.js").then(({ data }) => data),
   // path: /DesignPattren/SOLID.html
   "v-e502a7ec": () => import(/* webpackChunkName: "v-e502a7ec" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/DesignPattren/SOLID.html.js").then(({ data }) => data),
-  // path: /Command/Linux/
-  "v-f8f2cf10": () => import(/* webpackChunkName: "v-f8f2cf10" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Command/Linux/index.html.js").then(({ data }) => data),
+  // path: /Command/Markdown/LaTex.html
+  "v-011cd96c": () => import(/* webpackChunkName: "v-011cd96c" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Command/Markdown/LaTex.html.js").then(({ data }) => data),
+  // path: /Command/Markdown/mermaid.html
+  "v-4eb674b3": () => import(/* webpackChunkName: "v-4eb674b3" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Command/Markdown/mermaid.html.js").then(({ data }) => data),
   // path: /Command/Linux/cat%EF%BC%9A%E6%9F%A5%E7%9C%8B.html
   "v-3d30b620": () => import(/* webpackChunkName: "v-3d30b620" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Command/Linux/cat：查看.html.js").then(({ data }) => data),
   // path: /Command/Linux/chown%EF%BC%9A%E6%9B%B4%E6%94%B9%E6%89%80%E6%9C%89%E8%80%85.html
@@ -31,10 +29,8 @@ export const pagesData = {
   "v-1966ab2a": () => import(/* webpackChunkName: "v-1966ab2a" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Command/Linux/mount：磁盘挂载.html.js").then(({ data }) => data),
   // path: /Command/Linux/zip%EF%BC%9A%E5%8E%8B%E7%BC%A9.html
   "v-76ffe119": () => import(/* webpackChunkName: "v-76ffe119" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Command/Linux/zip：压缩.html.js").then(({ data }) => data),
-  // path: /Command/Markdown/LaTex.html
-  "v-011cd96c": () => import(/* webpackChunkName: "v-011cd96c" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Command/Markdown/LaTex.html.js").then(({ data }) => data),
-  // path: /Command/Markdown/mermaid.html
-  "v-4eb674b3": () => import(/* webpackChunkName: "v-4eb674b3" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Command/Markdown/mermaid.html.js").then(({ data }) => data),
+  // path: /DesignPattren/BehavioralPattern/Observer.html
+  "v-7936982a": () => import(/* webpackChunkName: "v-7936982a" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/DesignPattren/BehavioralPattern/Observer.html.js").then(({ data }) => data),
   // path: /DesignPattren/CreationalPattern/AbstractFactory.html
   "v-448fe1f6": () => import(/* webpackChunkName: "v-448fe1f6" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/DesignPattren/CreationalPattern/AbstractFactory.html.js").then(({ data }) => data),
   // path: /DesignPattren/CreationalPattern/FactoryMethod.html
@@ -59,10 +55,18 @@ export const pagesData = {
   "v-370fb760": () => import(/* webpackChunkName: "v-370fb760" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/DataBase/MySQL/Basis/02_如何存储.html.js").then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => import(/* webpackChunkName: "v-3706649a" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/404.html.js").then(({ data }) => data),
-  // path: /Command/
-  "v-92cd4f46": () => import(/* webpackChunkName: "v-92cd4f46" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Command/index.html.js").then(({ data }) => data),
+  // path: /Environment/
+  "v-e25cabd6": () => import(/* webpackChunkName: "v-e25cabd6" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Environment/index.html.js").then(({ data }) => data),
+  // path: /DesignPattren/
+  "v-24d45ddc": () => import(/* webpackChunkName: "v-24d45ddc" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/DesignPattren/index.html.js").then(({ data }) => data),
   // path: /Command/Markdown/
   "v-3a5cfd7a": () => import(/* webpackChunkName: "v-3a5cfd7a" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Command/Markdown/index.html.js").then(({ data }) => data),
+  // path: /Command/
+  "v-92cd4f46": () => import(/* webpackChunkName: "v-92cd4f46" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Command/index.html.js").then(({ data }) => data),
+  // path: /Command/Linux/
+  "v-f8f2cf10": () => import(/* webpackChunkName: "v-f8f2cf10" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/Command/Linux/index.html.js").then(({ data }) => data),
+  // path: /DesignPattren/BehavioralPattern/
+  "v-2b1c2a90": () => import(/* webpackChunkName: "v-2b1c2a90" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/DesignPattren/BehavioralPattern/index.html.js").then(({ data }) => data),
   // path: /DesignPattren/CreationalPattern/
   "v-0ba01b05": () => import(/* webpackChunkName: "v-0ba01b05" */"/mnt/d/File/Study/TaiyiBlog/docs/.vuepress/.temp/pages/DesignPattren/CreationalPattern/index.html.js").then(({ data }) => data),
   // path: /Java/FunctionalProgramming/

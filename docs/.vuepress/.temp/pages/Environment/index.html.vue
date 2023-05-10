@@ -1,8 +1,8 @@
-<template><div><h2 id="docker" tabindex="-1"><a class="header-anchor" href="#docker" aria-hidden="true">#</a> <RouterLink to="/Environment/Docker.html">Docker</RouterLink></h2>
-<h2 id="git" tabindex="-1"><a class="header-anchor" href="#git" aria-hidden="true">#</a> <RouterLink to="/Environment/Git.html">Git</RouterLink></h2>
-<h2 id="jdk" tabindex="-1"><a class="header-anchor" href="#jdk" aria-hidden="true">#</a> <RouterLink to="/Environment/JDK.html">JDK</RouterLink></h2>
-<h2 id="maven" tabindex="-1"><a class="header-anchor" href="#maven" aria-hidden="true">#</a> <RouterLink to="/Environment/Maven.html">Maven</RouterLink></h2>
-<h2 id="node" tabindex="-1"><a class="header-anchor" href="#node" aria-hidden="true">#</a> <RouterLink to="/Environment/Nodejs.html">Node</RouterLink></h2>
+<template><div><AutoCatalog>
+  <template #icon="{ icon }">
+    <HopeIcon :icon="icon" />
+  </template>
+</AutoCatalog>
 </div></template>
 
 
