@@ -63,7 +63,17 @@ export const sideBar = sidebar({
         { text: "如何存储", link: "Basis/02_如何存储.md" },
       ],
     },
-    { text: "索引", collapsible: true, children: [] },
+    {
+      text: "索引",
+      collapsible: true,
+      children: [
+        { text: "什么是索引", link: "Index/01_什么是索引.md" },
+        {
+          text: "什么时候（不）需要建立索引",
+          link: "Index/02_什么时候（不）需要建立索引.md",
+        },
+      ],
+    },
     { text: "锁", collapsible: true, children: [] },
     { text: "日志", collapsible: true, children: [] },
     { text: "内存", collapsible: true, children: [] },
