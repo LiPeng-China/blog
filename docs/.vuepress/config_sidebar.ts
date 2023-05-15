@@ -67,10 +67,21 @@ export const sideBar = sidebar({
       text: "索引",
       collapsible: true,
       children: [
-        { text: "什么是索引", link: "Index/01_什么是索引.md" },
+        {
+          text: "什么是索引",
+          link: "Index/01_什么是索引.md",
+        },
         {
           text: "什么时候（不）需要建立索引",
           link: "Index/02_什么时候（不）需要建立索引.md",
+        },
+        {
+          text: "优化索引的方法",
+          link: "Index/03_优化索引的方法.md",
+        },
+        {
+          text: "为什么采用B+树作为索引",
+          link: "Index/04_为什么采用B+树作为索引.md",
         },
       ],
     },
