@@ -6,7 +6,85 @@
 
 定义一种一对多的对象依赖关系这样当一个对象改变状态时，所有依赖它的对象都将自动通知或更新。
 
-## 程序实例
+## 程序实例1
+
+```java
+/**
+ * 被观察者
+ */
+@Data
+@AllArgsConstructor
+class Child extends Observable {
+
+    private String name;
+
+    public void cry() {
+        System.out.println("我哭了。。。");
+        super.setChanged();
+        super.notifyObservers();
+    }
+}
+
+/**
+ * 观察者
+ */
+@Data
+@AllArgsConstructor
+class Father implements Observer {
+
+    private String name;
+
+    @Override
+    public void update(Observable o, Object arg) {
+        System.out.println(this.name + ":" + ((Child) o).getName() + "哭了，继续打游戏吧。");
+    }
+}
+
+@Data
+@AllArgsConstructor
+class Mother implements Observer {
+
+    private String name;
+
+    @Override
+    public void update(Observable o, Object arg) {
+        System.out.println(this.name + ":" + ((Child) o).getName() + "哭了，去冲个奶粉吧……");
+
+    }
+}
+
+@Data
+@AllArgsConstructor
+class Pet implements Observer {
+
+    private String name;
+
+    @Override
+    public void update(Observable o, Object arg) {
+        System.out.println(this.name + ":" + "汪汪汪……");
+
+    }
+}
+
+public class Observer_1 {
+    public static void main(String[] args) {
+
+        Child baby = new Child("宝宝");
+
+        Observer father = new Father("爸爸");
+        Observer mother = new Mother("妈妈");
+        Observer dog = new Pet("宠物狗");
+
+        baby.addObserver(father);
+        baby.addObserver(mother);
+        baby.addObserver(dog);
+        
+        baby.cry();
+    }
+}
+```
+
+## 程序实例2
 
 ```java
 /**
@@ -148,5 +226,3 @@ public class Observer {
 - [java.util.EventListener](http://docs.oracle.com/javase/8/docs/api/java/util/EventListener.html)
 - [javax.servlet.http.HttpSessionBindingListener](http://docs.oracle.com/javaee/7/api/javax/servlet/http/HttpSessionBindingListener.html)
 - [RxJava](https://github.com/ReactiveX/RxJava)
-
-## 
