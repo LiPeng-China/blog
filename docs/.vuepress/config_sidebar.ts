@@ -96,6 +96,10 @@ export const sideBar = sidebar({
           text: "为什么采用B+树作为索引",
           link: "Index/04_为什么采用B+树作为索引.md",
         },
+        {
+          text: "索引失效的情况",
+          link: "Index/05_索引失效的情况.md",
+        },
       ],
     },
     { text: "锁", collapsible: true, children: [] },
