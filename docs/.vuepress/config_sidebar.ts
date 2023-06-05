@@ -19,14 +19,27 @@ export const sideBar = sidebar({
       children: [
         { text: "工厂方法", link: "CreationalPattern/FactoryMethod.md" },
         { text: "抽象工厂", link: "CreationalPattern/AbstractFactory.md" },
+        { text: "单例模式", link: "CreationalPattern/Singleton.md" },
       ],
     },
     {
       text: "行为模式",
       collapsible: true,
-      children: [{ text: "观察者模式", link: "BehavioralPattern/Observer.md" }],
+      children: [
+        { text: "观察者模式", link: "BehavioralPattern/Observer.md" },
+        { text: "责任链模式", link: "BehavioralPattern/ChainOfResponsibility.md" },
+        { text: "命令模式", link: "BehavioralPattern/Command.md" },
+        { text: "状态模式", link: "BehavioralPattern/State.md" },
+        { text: "策略模式", link: "BehavioralPattern/Strategy.md" }
+      ],
     },
-    { text: "结构模式", collapsible: true, children: [] },
+    { 
+      text: "结构模式",
+      collapsible: true,
+      children: [
+      { text: "组合模式", link: "StructuralPattern/Composite.md" }
+      ] 
+    },
   ],
   // 命令手册
   "/Command/Linux": [
