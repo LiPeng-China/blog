@@ -3,7 +3,7 @@ import { searchProPlugin } from "vuepress-plugin-search-pro";
 import theme from "./theme";
 
 export default defineUserConfig({
-  base: "/TaiyiBlog/",
+  base: "/blog/",
 
   theme,
 
