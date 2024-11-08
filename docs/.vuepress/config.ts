@@ -4,9 +4,7 @@ import theme from "./theme";
 
 export default defineUserConfig({
   base: "/blog/",
-
   theme,
-
   lang: "zh-CN",
 
   plugins: [
