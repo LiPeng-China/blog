@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-0ba01b05","path":"/DesignPattren/CreationalPattern/","title":"Creational Pattern","lang":"zh-CN","frontmatter":{"title":"Creational Pattern","article":false,"feed":false,"sitemap":false},"headers":[],"git":{},"readingTime":{"minutes":0.03,"words":10},"filePathRelative":null,"excerpt":""}');export{e as data};

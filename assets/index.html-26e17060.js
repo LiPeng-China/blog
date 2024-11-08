@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-90e067e6","path":"/Java/FunctionalProgramming/","title":"Functional Programming","lang":"zh-CN","frontmatter":{"title":"Functional Programming","article":false,"feed":false,"sitemap":false},"headers":[],"git":{},"readingTime":{"minutes":0.03,"words":10},"filePathRelative":null,"excerpt":""}');export{e as data};

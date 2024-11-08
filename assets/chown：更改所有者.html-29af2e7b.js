@@ -1,0 +1,3 @@
+import{_ as e,X as s,Y as n,Z as a}from"./framework-7c2c1cd4.js";const c={},t=a(`<div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code><span class="token comment"># -R: recursive 递归的持续变更，连同目录下的所有文件都变更</span>
+<span class="token function">sudo</span> <span class="token function">chown</span> user:user folder <span class="token parameter variable">-R</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div>`,1),o=[t];function r(i,l){return s(),n("div",null,o)}const _=e(c,[["render",r],["__file","chown：更改所有者.html.vue"]]);export{_ as default};

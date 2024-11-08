@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-2b1c2a90","path":"/DesignPattren/BehavioralPattern/","title":"Behavioral Pattern","lang":"zh-CN","frontmatter":{"title":"Behavioral Pattern","article":false,"feed":false,"sitemap":false},"headers":[],"git":{},"readingTime":{"minutes":0.03,"words":10},"filePathRelative":null,"excerpt":""}');export{e as data};
