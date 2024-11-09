@@ -3833,9 +3833,7 @@ public @interface MyAnnotation {
 
 ### 2、网络分层
 
-<img src="JavaSE_assets/计算机网络体系结构.png" alt="计算机网络体系结构" style="zoom: 33%;" />
-
-
+![计算机网络体系结构](./JavaSE_assets/计算机网络体系结构.png)
 
 - 网络模型：OSI 七层架构  TCP/ IP体系
 - TCP/IP：网络互联的通信协议
