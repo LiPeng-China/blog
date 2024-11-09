@@ -951,7 +951,7 @@ appendonly yes
 
 AOF 日志是写后日志：Redis 先执行命令，把数据写入内存中，然后才去记录日志；
 
-<img src="Redis_assets/AOF写后日志.png" alt="AOF写后日志" style="zoom:50%;" />
+![AOF写后日志](./Redis_assets/AOF写后日志.png)
 
 查看 AOF 文件
 

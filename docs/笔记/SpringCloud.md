@@ -13,7 +13,7 @@
 
 - 耦合度高
 
-<img src="SpringCloud_assets/单体架构.png" alt="单体架构" style="zoom: 50%;" />
+![单体架构](./SpringCloud_assets/单体架构.png)
 
 ### 2、分布式架构
 
@@ -28,7 +28,7 @@
 
 - 运维复杂
 
-<img src="SpringCloud_assets/分布式架构.png" alt="分布式架构" style="zoom: 33%;" />
+![分布式架构](./SpringCloud_assets/分布式架构.png)
 
 ### 3、微服务
 
@@ -49,7 +49,7 @@ SpringCloud 是目前国内使用最广泛的微服务框架。官网地址：ht
 
 SpringCloud 集成了各种微服务功能组件，并基于 SpringBoot 实现了这些组件的自动装配，从而提供了良好的开箱即用体验。
 
-<img src="SpringCloud_assets/微服务架构图.png" alt="微服务架构图" style="zoom:50%;" />
+![微服务架构图](./SpringCloud_assets/微服务架构图.png)
 
 ### 2、微服务常用技术对比
 
@@ -360,7 +360,7 @@ SpringCloud 集成了各种微服务功能组件，并基于 SpringBoot 实现�
 
 #### 4.2、LoadBalance 负载均衡底层原理
 
-<img src="SpringCloud_assets/LoadBalance负载均衡底层原理.png" alt="LoadBalance负载均衡底层原理" style="zoom: 50%;" />
+![LoadBalance负载均衡底层原理](./SpringCloud_assets/LoadBalance负载均衡底层原理.png)
 
 **为什么我们只输入了服务名称就可以访问了呢？之前还要获取ip和端口。**
 
@@ -410,7 +410,7 @@ public <T> ServiceInstance choose(String serviceId, Request<T> request) {
 
 ReactiveLoadBalancer 接口实现类有两个：一个是随机均衡策略，一个是轮询策略，默认就是轮询策略。
 
-<img src="SpringCloud_assets/负载均衡两个策略.png" alt="负载均衡两个策略" style="zoom:33%;" />
+![负载均衡两个策略](./SpringCloud_assets/负载均衡两个策略.png)
 
 RoundRobinLoadBalancer 底层原理：
 
@@ -549,13 +549,13 @@ spring:
 
 > 临时实例宕机时，会从 nacos 的服务列表中剔除，而非临时实例则不会
 
-<img src="SpringCloud_assets/Nacos注册中心.png" alt="Nacos注册中心" style="zoom: 33%;" />
+![Nacos注册中心](./SpringCloud_assets/Nacos注册中心.png)
 
 #### 2.3 命名空间
 
 Nacos中服务存储和数据存储的最外层都是一个名为 namespace 的东西，用来做最外层隔离。
 
-<img src="SpringCloud_assets/Nacos命名空间.png" alt="Nacos命名空间" style="zoom:33%;" />
+![Nacos命名空间](./SpringCloud_assets/Nacos命名空间.png)
 
 实现环境隔离：
 
@@ -596,17 +596,17 @@ Nacos中服务存储和数据存储的最外层都是一个名为 namespace 的�
 
 Nacos 不单单可以做注册中心，还可以做配置管理。
 
-<img src="SpringCloud_assets/Nacos配置管理服务.png" alt="Nacos配置管理服务" style="zoom:33%;" />
+![Nacos配置管理服务](./SpringCloud_assets/Nacos配置管理服务.png)
 
 在 Nacos 中添加配置信息：
 
-<img src="SpringCloud_assets/Nacos添加配置信息step01.png" alt="Nacos添加配置信息step01" style="zoom: 50%;" />
+![Nacos添加配置信息step01](./SpringCloud_assets/Nacos添加配置信息step01.png)
 
-<img src="SpringCloud_assets/Nacos添加配置信息step02.png" alt="Nacos添加配置信息step02" style="zoom: 50%;" />
+![Nacos添加配置信息step02](./SpringCloud_assets/Nacos添加配置信息step02.png)
 
 #### 3.2 配置获取的步骤
 
-<img src="SpringCloud_assets/Nacos配置获取步骤.png" alt="Nacos配置获取步骤" style="zoom:33%;" />
+![Nacos配置获取步骤](./SpringCloud_assets/Nacos配置获取步骤.png)
 
 一定要记得新建 bootstrap.yml 配置文件，将 nacos 配置信息添加到 bootstrap.yml 文件中。
 
@@ -849,7 +849,7 @@ Spring Cloud Gateway 是 Spring Cloud 的一个全新项目，该项目是基于
 
 通过 Gateway 做负载均衡：
 
-<img src="SpringCloud_assets/Gateway负载均衡.png" alt="Gateway负载均衡" style="zoom: 33%;" />
+![Gateway负载均衡](./SpringCloud_assets/Gateway负载均衡.png)
 
 ### 3、路由断言工厂
 
@@ -889,7 +889,7 @@ Spring Cloud Gateway 是 Spring Cloud 的一个全新项目，该项目是基于
 
 GatewayFilter 是网关中提供的一种过滤器，可以对进入网关的请求和微服务返回的响应做处理（面试）：
 
-<img src="SpringCloud_assets/路由过滤器.png" alt="路由过滤器" style="zoom:33%;" />
+![路由过滤器](./SpringCloud_assets/路由过滤器.png)
 
 Spring常用过滤器工厂：
 
