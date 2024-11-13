@@ -1,15 +1,28 @@
 ---
 home: true
-# heroImage: /hero.png
-heroText: 九歌·太一笔记
-tagline: 太一笔记
-# actionText: 快速上手 →
-# actionLink: /zh/guide/
+title: 首页
+heroImage: /logo.svg
+heroText: 九歌·太一博客
+tagline: 太一博客
+
+actions:
+  - text: 笔记学习 🧭
+    link: /笔记
+    type: primary
+
+  # - text: 题频排序 💡
+  #   link: /rank
+
+  # - text: 精品文章 📄
+  #   link: /article
+  
 features:
-    - title: 简洁至上
-      details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-    - title: Vue驱动
-      details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
+    - title: 笔记
+      details: Java Web 相关框架的学习笔记
+    - title: 面试
+      details: 秋招面试中遇到的各种问题记录
+    - title: 开发
+      details: 编程开发中遇到的问题记录
     - title: 高性能
       details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
 # footer: MIT Licensed | Copyright © 2023-present 九歌·太一
