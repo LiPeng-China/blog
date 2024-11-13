@@ -11,6 +11,7 @@ export const sideBar = sidebar({
         { text: "JavaSE", link: "JavaSE.md" },
         { text: "JavaWeb", link: "JavaWeb.md" },
         { text: "JDBC", link: "JDBC.md" },
+        { text: "Maven", link: "Maven.md" },
       ],
     },
     {
@@ -32,14 +33,39 @@ export const sideBar = sidebar({
         { text: "MongoDB", link: "MongoDB.md" },
       ],
     },
-    { text: "Maven", link: "Maven.md" },
-    { text: "MyBatis", link: "MyBatis.md" },
-    { text: "MyBatisPlus", link: "MyBatisPlus.md" },
-    { text: "Linux", link: "Linux.md" },
-    { text: "Nginx", link: "Nginx.md" },
-    { text: "RabbitMQ", link: "RabbitMQ.md" },
-    { text: "Git", link: "Git.md" },
-    { text: "Docker", link: "Docker.md" },
+    {
+      text: "Markdown",
+      collapsible: true,
+      children: [
+        { text: "Latex", link: "Latex.md" },
+        { text: "Mermaid", link: "mermaid.md" },
+      ],
+    },
+    {
+      text: "ORM",
+      collapsible: true,
+      children: [
+        { text: "MyBatis", link: "MyBatis.md" },
+        { text: "MyBatisPlus", link: "MyBatisPlus.md" },
+      ],
+    },
+    {
+      text: "中间件",
+      collapsible: true,
+      children: [
+        { text: "Nginx", link: "Nginx.md" },
+        { text: "RabbitMQ", link: "RabbitMQ.md" },
+      ],
+    },
+    {
+      text: "工具",
+      collapsible: true,
+      children: [
+        { text: "Linux", link: "Linux.md" },
+        { text: "Git", link: "Git.md" },
+        { text: "Docker", link: "Docker.md" },
+      ],
+    },
   ],
   // // 开发环境
   // "/Environment/": [
@@ -72,12 +98,12 @@ export const sideBar = sidebar({
   //       { text: "策略模式", link: "BehavioralPattern/Strategy.md" }
   //     ],
   //   },
-  //   { 
+  //   {
   //     text: "结构模式",
   //     collapsible: true,
   //     children: [
   //     { text: "组合模式", link: "StructuralPattern/Composite.md" }
-  //     ] 
+  //     ]
   //   },
   // ],
   // // 命令手册

@@ -23,10 +23,14 @@ export const pagesData = {
   "v-11c46faa": () => import(/* webpackChunkName: "v-11c46faa" */"D:/Code/blog/docs/.vuepress/.temp/pages/笔记/JavaWeb.html.js").then(({ data }) => data),
   // path: /%E7%AC%94%E8%AE%B0/JDBC.html
   "v-4b07737a": () => import(/* webpackChunkName: "v-4b07737a" */"D:/Code/blog/docs/.vuepress/.temp/pages/笔记/JDBC.html.js").then(({ data }) => data),
+  // path: /%E7%AC%94%E8%AE%B0/LaTex.html
+  "v-cc992eea": () => import(/* webpackChunkName: "v-cc992eea" */"D:/Code/blog/docs/.vuepress/.temp/pages/笔记/LaTex.html.js").then(({ data }) => data),
   // path: /%E7%AC%94%E8%AE%B0/Linux.html
   "v-17192349": () => import(/* webpackChunkName: "v-17192349" */"D:/Code/blog/docs/.vuepress/.temp/pages/笔记/Linux.html.js").then(({ data }) => data),
   // path: /%E7%AC%94%E8%AE%B0/Maven.html
   "v-48d45912": () => import(/* webpackChunkName: "v-48d45912" */"D:/Code/blog/docs/.vuepress/.temp/pages/笔记/Maven.html.js").then(({ data }) => data),
+  // path: /%E7%AC%94%E8%AE%B0/mermaid.html
+  "v-5fd7fdb4": () => import(/* webpackChunkName: "v-5fd7fdb4" */"D:/Code/blog/docs/.vuepress/.temp/pages/笔记/mermaid.html.js").then(({ data }) => data),
   // path: /%E7%AC%94%E8%AE%B0/MongoDB.html
   "v-8251e4ea": () => import(/* webpackChunkName: "v-8251e4ea" */"D:/Code/blog/docs/.vuepress/.temp/pages/笔记/MongoDB.html.js").then(({ data }) => data),
   // path: /%E7%AC%94%E8%AE%B0/MyBatis.html
@@ -61,10 +65,6 @@ export const pagesData = {
   "v-1966ab2a": () => import(/* webpackChunkName: "v-1966ab2a" */"D:/Code/blog/docs/.vuepress/.temp/pages/Command/Linux/mount：磁盘挂载.html.js").then(({ data }) => data),
   // path: /Command/Linux/zip%EF%BC%9A%E5%8E%8B%E7%BC%A9.html
   "v-76ffe119": () => import(/* webpackChunkName: "v-76ffe119" */"D:/Code/blog/docs/.vuepress/.temp/pages/Command/Linux/zip：压缩.html.js").then(({ data }) => data),
-  // path: /Command/Markdown/LaTex.html
-  "v-011cd96c": () => import(/* webpackChunkName: "v-011cd96c" */"D:/Code/blog/docs/.vuepress/.temp/pages/Command/Markdown/LaTex.html.js").then(({ data }) => data),
-  // path: /Command/Markdown/mermaid.html
-  "v-4eb674b3": () => import(/* webpackChunkName: "v-4eb674b3" */"D:/Code/blog/docs/.vuepress/.temp/pages/Command/Markdown/mermaid.html.js").then(({ data }) => data),
   // path: /DesignPattren/BehavioralPattern/ChainOfResponsibility.html
   "v-039fa66a": () => import(/* webpackChunkName: "v-039fa66a" */"D:/Code/blog/docs/.vuepress/.temp/pages/DesignPattren/BehavioralPattern/ChainOfResponsibility.html.js").then(({ data }) => data),
   // path: /DesignPattren/BehavioralPattern/Command.html
@@ -123,8 +123,6 @@ export const pagesData = {
   "v-f8f2cf10": () => import(/* webpackChunkName: "v-f8f2cf10" */"D:/Code/blog/docs/.vuepress/.temp/pages/Command/Linux/index.html.js").then(({ data }) => data),
   // path: /Command/
   "v-92cd4f46": () => import(/* webpackChunkName: "v-92cd4f46" */"D:/Code/blog/docs/.vuepress/.temp/pages/Command/index.html.js").then(({ data }) => data),
-  // path: /Command/Markdown/
-  "v-3a5cfd7a": () => import(/* webpackChunkName: "v-3a5cfd7a" */"D:/Code/blog/docs/.vuepress/.temp/pages/Command/Markdown/index.html.js").then(({ data }) => data),
   // path: /DesignPattren/BehavioralPattern/
   "v-2b1c2a90": () => import(/* webpackChunkName: "v-2b1c2a90" */"D:/Code/blog/docs/.vuepress/.temp/pages/DesignPattren/BehavioralPattern/index.html.js").then(({ data }) => data),
   // path: /DesignPattren/CreationalPattern/
