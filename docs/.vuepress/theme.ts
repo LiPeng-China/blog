@@ -1,11 +1,17 @@
 import { hopeTheme, mdEnhance } from "vuepress-theme-hope";
-// import { mdEnhance } from "vuepress-theme-hope";
 
 import { navBar } from "./config_navbar";
 import { sideBar } from "./config_sidebar";
+
 export default hopeTheme({
   // 1、导航栏中 Logo 的链接 2、404 页面的 返回首页 链接
   home: "/",
+
+  // 左侧 logo
+  logo: "logo.svg",
+
+  // url 地址上的小 logo
+  favicon: 'logo.svg',
 
   // 导航栏配置
   navbar: navBar,
@@ -13,14 +19,10 @@ export default hopeTheme({
   // 侧边栏配置
   sidebar: sideBar,
 
-  // 配置页脚
-  // footer: "MIT Licensed | Copyright © 2023-present 九歌·太一",
-  // copyright: false,
-
   // meta信息：lastUpdated、contributors、editLink 默认为true
   lastUpdated: false,
   contributors: false,
-  // editLink: false,
+  editLink: false,
 
   // 启用热更新,以使上述三个 meta 信息生效
   hotReload: true,
@@ -40,6 +42,7 @@ export default hopeTheme({
     //
 
     // 为每个文件夹自动生成带目录的 README.md
+    // catalog: true,
 
     // maekdown 增强
     mdEnhance: {
@@ -85,9 +88,5 @@ export default hopeTheme({
     copyCode: { showInMobile: true },
     // 图片预览
     photoSwipe: true,
-    // 版权信息
-    // copyright: {
-    //   author: "九歌·太一",
-    // },
   },
 });

@@ -4,6 +4,7 @@ import { navbar } from "vuepress-theme-hope";
 export const navBar = navbar([
   { text: "首页", link: "/" },
   { text: "笔记", link: "/笔记/" },
+  { text: "面试", link: "/面试/" },
   // { text: "开发环境", link: "/Environment/" },
   // {
   //   text: "命令手册",

@@ -41,8 +41,14 @@ export const pagesData = {
   "v-6bdc6d95": () => import(/* webpackChunkName: "v-6bdc6d95" */"D:/Code/blog/docs/.vuepress/.temp/pages/笔记/SpringCloud.html.js").then(({ data }) => data),
   // path: /%E7%AC%94%E8%AE%B0/SpringMVC.html
   "v-9f70b160": () => import(/* webpackChunkName: "v-9f70b160" */"D:/Code/blog/docs/.vuepress/.temp/pages/笔记/SpringMVC.html.js").then(({ data }) => data),
+  // path: /%E9%9D%A2%E8%AF%95/408%E5%9F%BA%E7%A1%80.html
+  "v-ca6ea52a": () => import(/* webpackChunkName: "v-ca6ea52a" */"D:/Code/blog/docs/.vuepress/.temp/pages/面试/408基础.html.js").then(({ data }) => data),
+  // path: /%E9%9D%A2%E8%AF%95/Java.html
+  "v-ec1d991e": () => import(/* webpackChunkName: "v-ec1d991e" */"D:/Code/blog/docs/.vuepress/.temp/pages/面试/Java.html.js").then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => import(/* webpackChunkName: "v-3706649a" */"D:/Code/blog/docs/.vuepress/.temp/pages/404.html.js").then(({ data }) => data),
   // path: /%E7%AC%94%E8%AE%B0/
   "v-313fc3c4": () => import(/* webpackChunkName: "v-313fc3c4" */"D:/Code/blog/docs/.vuepress/.temp/pages/笔记/index.html.js").then(({ data }) => data),
+  // path: /%E9%9D%A2%E8%AF%95/
+  "v-0d3099b4": () => import(/* webpackChunkName: "v-0d3099b4" */"D:/Code/blog/docs/.vuepress/.temp/pages/面试/index.html.js").then(({ data }) => data),
 }

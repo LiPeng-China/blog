@@ -6,6 +6,8 @@ export default defineUserConfig({
   base: "/blog/",
   theme,
   lang: "zh-CN",
+  // 站点的标题
+  title: "九歌·太一博客",
 
   plugins: [
     // 搜索插件
@@ -29,4 +31,5 @@ export default defineUserConfig({
       },
     }),
   ],
+  shouldPrefetch: true,
 });
