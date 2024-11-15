@@ -67,6 +67,9 @@ export const sideBar = sidebar({
       ],
     },
   ],
+  "/面试/": [
+    { text: "408基础", link: "408基础.md" },
+  ]
   // // 开发环境
   // "/Environment/": [
   //   { text: "Docker", link: "Docker" },

@@ -8,10 +8,10 @@ export default hopeTheme({
   home: "/",
 
   // 左侧 logo
-  logo: "logo.svg",
+  logo: "image/logo.svg",
 
   // url 地址上的小 logo
-  favicon: 'logo.svg',
+  favicon: 'image/logo.svg',
 
   // 导航栏配置
   navbar: navBar,

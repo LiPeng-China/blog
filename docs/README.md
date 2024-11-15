@@ -1,7 +1,7 @@
 ---
 home: true
 title: 首页
-heroImage: /logo.svg
+heroImage: /image/logo.svg
 heroText: 九歌·太一博客
 tagline: 太一博客
 
@@ -23,7 +23,7 @@ features:
       details: 秋招面试中遇到的各种问题记录
     - title: 开发
       details: 编程开发中遇到的问题记录
-    - title: 高性能
-      details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
+    # - title: 高性能
+      # details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
 # footer: MIT Licensed | Copyright © 2023-present 九歌·太一
 ---
