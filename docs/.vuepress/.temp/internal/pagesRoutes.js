@@ -1,5 +1,8 @@
 export const pagesRoutes = [
   ["v-8daa1a0e","/",{"y":"h","t":"首页"},["/index.html","/README.md"]],
+  ["v-4e5c19c6","/%E5%B7%A5%E5%85%B7/WSL.html",{"y":"a","t":""},["/工具/WSL.html","/%E5%B7%A5%E5%85%B7/WSL","/工具/WSL.md","/%E5%B7%A5%E5%85%B7/WSL.md"]],
+  ["v-ca6ea52a","/%E9%9D%A2%E8%AF%95/408%E5%9F%BA%E7%A1%80.html",{"y":"a","t":""},["/面试/408基础.html","/%E9%9D%A2%E8%AF%95/408%E5%9F%BA%E7%A1%80","/面试/408基础.md","/%E9%9D%A2%E8%AF%95/408%E5%9F%BA%E7%A1%80.md"]],
+  ["v-ec1d991e","/%E9%9D%A2%E8%AF%95/Java.html",{"y":"a","t":""},["/面试/Java.html","/%E9%9D%A2%E8%AF%95/Java","/面试/Java.md","/%E9%9D%A2%E8%AF%95/Java.md"]],
   ["v-16c36f56","/%E7%AC%94%E8%AE%B0/Docker.html",{"y":"a","t":""},["/笔记/Docker.html","/%E7%AC%94%E8%AE%B0/Docker","/笔记/Docker.md","/%E7%AC%94%E8%AE%B0/Docker.md"]],
   ["v-71bee82b","/%E7%AC%94%E8%AE%B0/Git.html",{"y":"a","t":""},["/笔记/Git.html","/%E7%AC%94%E8%AE%B0/Git","/笔记/Git.md","/%E7%AC%94%E8%AE%B0/Git.md"]],
   ["v-03448701","/%E7%AC%94%E8%AE%B0/JavaSE.html",{"y":"a","t":""},["/笔记/JavaSE.html","/%E7%AC%94%E8%AE%B0/JavaSE","/笔记/JavaSE.md","/%E7%AC%94%E8%AE%B0/JavaSE.md"]],
@@ -20,9 +23,8 @@ export const pagesRoutes = [
   ["v-aaeec594","/%E7%AC%94%E8%AE%B0/SpringBoot.html",{"y":"a","t":""},["/笔记/SpringBoot.html","/%E7%AC%94%E8%AE%B0/SpringBoot","/笔记/SpringBoot.md","/%E7%AC%94%E8%AE%B0/SpringBoot.md"]],
   ["v-6bdc6d95","/%E7%AC%94%E8%AE%B0/SpringCloud.html",{"y":"a","t":""},["/笔记/SpringCloud.html","/%E7%AC%94%E8%AE%B0/SpringCloud","/笔记/SpringCloud.md","/%E7%AC%94%E8%AE%B0/SpringCloud.md"]],
   ["v-9f70b160","/%E7%AC%94%E8%AE%B0/SpringMVC.html",{"y":"a","t":""},["/笔记/SpringMVC.html","/%E7%AC%94%E8%AE%B0/SpringMVC","/笔记/SpringMVC.md","/%E7%AC%94%E8%AE%B0/SpringMVC.md"]],
-  ["v-ca6ea52a","/%E9%9D%A2%E8%AF%95/408%E5%9F%BA%E7%A1%80.html",{"y":"a","t":""},["/面试/408基础.html","/%E9%9D%A2%E8%AF%95/408%E5%9F%BA%E7%A1%80","/面试/408基础.md","/%E9%9D%A2%E8%AF%95/408%E5%9F%BA%E7%A1%80.md"]],
-  ["v-ec1d991e","/%E9%9D%A2%E8%AF%95/Java.html",{"y":"a","t":""},["/面试/Java.html","/%E9%9D%A2%E8%AF%95/Java","/面试/Java.md","/%E9%9D%A2%E8%AF%95/Java.md"]],
   ["v-3706649a","/404.html",{"y":"p","t":""},["/404"]],
-  ["v-313fc3c4","/%E7%AC%94%E8%AE%B0/",{"y":"p","t":"笔记"},["/笔记/","/%E7%AC%94%E8%AE%B0/index.html"]],
+  ["v-44197e46","/%E5%B7%A5%E5%85%B7/",{"y":"p","t":"工具"},["/工具/","/%E5%B7%A5%E5%85%B7/index.html"]],
   ["v-0d3099b4","/%E9%9D%A2%E8%AF%95/",{"y":"p","t":"面试"},["/面试/","/%E9%9D%A2%E8%AF%95/index.html"]],
+  ["v-313fc3c4","/%E7%AC%94%E8%AE%B0/",{"y":"p","t":"笔记"},["/笔记/","/%E7%AC%94%E8%AE%B0/index.html"]],
 ]
