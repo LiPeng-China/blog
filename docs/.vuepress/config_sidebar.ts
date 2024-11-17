@@ -18,12 +18,12 @@ export const sideBar = sidebar({
     {
       text: "Spring",
       collapsible: true,
-      icon: "/image/spring0.svg",
+      icon: "/image/spring.svg",
       children: [
-        { text: "Spring", icon: "/image/spring.svg", link: "Spring.md" },
-        { text: "SpringBoot", icon: "/image/springboot.svg", link: "SpringBoot.md" },
-        { text: "SpringMVC", icon: "/image/springmvc.svg", link: "SpringMVC.md" },
-        { text: "SpringCloud", icon: "/image/springcloud.svg", link: "SpringCloud.md" },
+        { text: "Spring", link: "Spring.md" },
+        { text: "SpringBoot", link: "SpringBoot.md" },
+        { text: "SpringMVC", link: "SpringMVC.md" },
+        { text: "SpringCloud", link: "SpringCloud.md" },
       ],
     },
     {
@@ -31,9 +31,9 @@ export const sideBar = sidebar({
       collapsible: true,
       icon: "database",
       children: [
-        { text: "MySQL", icon: "/image/mysql.svg", link: "MySQL.md" },
-        { text: "Redis", icon: "/image/redis.svg", link: "Redis.md" },
-        { text: "MongoDB", icon: "/image/mongodb.svg", link: "MongoDB.md" },
+        { text: "MySQL", link: "MySQL.md" },
+        { text: "Redis", link: "Redis.md" },
+        { text: "MongoDB", link: "MongoDB.md" },
       ],
     },
     {
@@ -50,8 +50,8 @@ export const sideBar = sidebar({
       collapsible: true,
       icon: "/image/orm.svg",
       children: [
-        { text: "MyBatis", icon: "/image/mybatis.svg", link: "MyBatis.md" },
-        { text: "MyBatisPlus", icon: "/image/mybatisplus.svg", link: "MyBatisPlus.md" },
+        { text: "MyBatis", link: "MyBatis.md" },
+        { text: "MyBatisPlus", link: "MyBatisPlus.md" },
       ],
     },
     {
