@@ -72,5 +72,8 @@ export const sideBar = sidebar({
   ],
   "/工具/": [
     { text: "WSL", link: "WSL.md" },
+    { text: "Docker", link: "Docker.md" },
+    { text: "1Panel", link: "1Panel.md" },
+    { text: "Sdkman", link: "Sdkman.md" },
   ]
 });

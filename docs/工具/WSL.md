@@ -1,4 +1,57 @@
-## 一、安装 Nala
+## 一、换源
+
+### 1、备份
+
+```shell
+sudo cp /etc/apt/sources.list.d/ubuntu.sources  /etc/apt/sources.list.d/ubuntu.sources.bak
+```
+
+### 2、打开 ubuntu.source
+
+```shell
+sudo vim /etc/apt/sources.list.d/ubuntu.sources
+```
+
+### 3、更新内容
+
+```shell
+# 阿里云
+Types: deb
+URIs: http://mirrors.aliyun.com/ubuntu/
+Suites: noble noble-updates noble-security
+Components: main restricted universe multiverse
+Signed-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg
+
+# 清华
+Types: deb
+URIs: http://mirrors.tuna.tsinghua.edu.cn/ubuntu/
+Suites: noble noble-updates noble-security
+Components: main restricted universe multiverse
+Signed-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg
+
+# 中科大
+Types: deb
+URIs: http://mirrors.ustc.edu.cn/ubuntu/
+Suites: noble noble-updates noble-security
+Components: main restricted universe multiverse
+Signed-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg
+
+# 网易 163
+Types: deb
+URIs: http://mirrors.163.com/ubuntu/
+Suites: noble noble-updates noble-security
+Components: main restricted universe multiverse
+Signed-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg
+```
+
+### 4、更新
+
+```shell
+sudo apt update
+sudo apt upgrade
+```
+
+## 二、安装 Nala
 
 ### 1、更新
 
@@ -25,7 +78,7 @@ sudo nala update
 sudo nala upgrade
 ```
 
-## 二、安装 Gnome 桌面
+## 三、安装 Gnome 桌面
 
 ### 1、前提条件
 
@@ -50,7 +103,7 @@ Failed to get properties: Transport endpoint is not connected
 sudo apt install -y ubuntu-desktop
 ```
 
-## 三、安装 Xrdp
+## 四、安装 Xrdp
 
 ### 1、安装 xrdp
 
