@@ -29,19 +29,19 @@ sdk list java
 ### 2、安装 JDK8
 
 ```shell
-sdk install java 8.0.422-albba
+sdk install java 8.0.432-zulu
 ```
 
 ### 3、指定默认版本
 
 ```shell
-sdk default java 8.0.422-albba
+sdk default java 8.0.432-zulu
 ```
 
 ### 4、卸载 JDK
 
 ```shell
-sdk uninstall java 8.0.422-albba
+sdk uninstall java 8.0.432-zulu
 ```
 
 ### 5、查看当前 JDK
@@ -53,6 +53,6 @@ sdk current java
 ### 6、切换 JDK 版本
 
 ```shell
-sdk use java 8.0.422-albba
+sdk use java java 8.0.432-zulu
 ```
 

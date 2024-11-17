@@ -13,6 +13,9 @@ export default hopeTheme({
   // url 地址上的小 logo
   favicon: 'image/logo.svg',
 
+  // icon 关键词: "iconify", "fontawesome", "fontawesome-with-brands"
+  iconAssets: "fontawesome",
+
   // 导航栏配置
   navbar: navBar,
 

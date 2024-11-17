@@ -7,6 +7,7 @@ export const sideBar = sidebar({
     {
       text: "Java",
       collapsible: true,
+      icon: "/image/java.svg",
       children: [
         { text: "JavaSE", link: "JavaSE.md" },
         { text: "JavaWeb", link: "JavaWeb.md" },
@@ -17,25 +18,28 @@ export const sideBar = sidebar({
     {
       text: "Spring",
       collapsible: true,
+      icon: "/image/spring0.svg",
       children: [
-        { text: "Spring", link: "Spring.md" },
-        { text: "SpringBoot", link: "SpringBoot.md" },
-        { text: "SpringMVC", link: "SpringMVC.md" },
-        { text: "SpringCloud", link: "SpringCloud.md" },
+        { text: "Spring", icon: "/image/spring.svg", link: "Spring.md" },
+        { text: "SpringBoot", icon: "/image/springboot.svg", link: "SpringBoot.md" },
+        { text: "SpringMVC", icon: "/image/springmvc.svg", link: "SpringMVC.md" },
+        { text: "SpringCloud", icon: "/image/springcloud.svg", link: "SpringCloud.md" },
       ],
     },
     {
       text: "数据库",
       collapsible: true,
+      icon: "database",
       children: [
-        { text: "MySQL", link: "MySQL.md" },
-        { text: "Redis", link: "Redis.md" },
-        { text: "MongoDB", link: "MongoDB.md" },
+        { text: "MySQL", icon: "/image/mysql.svg", link: "MySQL.md" },
+        { text: "Redis", icon: "/image/redis.svg", link: "Redis.md" },
+        { text: "MongoDB", icon: "/image/mongodb.svg", link: "MongoDB.md" },
       ],
     },
     {
       text: "Markdown",
       collapsible: true,
+      icon: "/image/markdown.svg",
       children: [
         { text: "Latex", link: "Latex.md" },
         { text: "Mermaid", link: "mermaid.md" },
@@ -44,14 +48,16 @@ export const sideBar = sidebar({
     {
       text: "ORM",
       collapsible: true,
+      icon: "/image/orm.svg",
       children: [
-        { text: "MyBatis", link: "MyBatis.md" },
-        { text: "MyBatisPlus", link: "MyBatisPlus.md" },
+        { text: "MyBatis", icon: "/image/mybatis.svg", link: "MyBatis.md" },
+        { text: "MyBatisPlus", icon: "/image/mybatisplus.svg", link: "MyBatisPlus.md" },
       ],
     },
     {
       text: "中间件",
       collapsible: true,
+      icon: "/image/gears.svg",
       children: [
         { text: "Nginx", link: "Nginx.md" },
         { text: "RabbitMQ", link: "RabbitMQ.md" },
@@ -60,6 +66,7 @@ export const sideBar = sidebar({
     {
       text: "工具",
       collapsible: true,
+      icon: "/image/wrench.svg",
       children: [
         { text: "Linux", link: "Linux.md" },
         { text: "Git", link: "Git.md" },
