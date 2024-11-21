@@ -1,5 +1,3 @@
-## 一、安装 Docker
-
 ### 1、安装依赖
 
 ```shell
@@ -38,5 +36,11 @@ sudo apt install docker-ce -y
 
 ```shell
 docker -v
+```
+
+### 7、移除 Docker 软件源
+
+```shell
+sudo mv /etc/apt/sources.list.d/docker.list /etc/apt/sources.list.d/docker.list.bak
 ```
 
