@@ -6,4 +6,5 @@ export const navBar = navbar([
   { text: "笔记", icon: "book", link: "/笔记/" },
   { text: "面试", icon: "user", link: "/面试/" },
   { text: "工具", icon: "gear", link: "/工具/" },
+  { text: "开发", icon: "code", link: "/开发/" },
 ]);
