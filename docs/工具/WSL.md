@@ -51,7 +51,54 @@ sudo apt update
 sudo apt upgrade
 ```
 
-## 二、安装 Nala
+## 二、移除 Snap
+
+### 1、查看 snap 已安装的软件包
+
+```shell
+snap list
+```
+
+### 2、移除软件
+
+```shell
+snap remove --purge snap-store
+snap remove --purge gtk-common-theme
+snap remove --purge gnome-42-2204
+snap remove --purge bare
+snap remove --purge core22
+snap remove --purge thunderbird
+snap remove --purge snapd
+```
+
+### 3、锁住 snap 包
+
+```shell
+sudo gedit /etc/apt/preferences.d/nosnap.pref
+```
+
+```shell
+# To prevent repository packages from triggering the installation of snap,
+# this file forbids snapd from being installed by APT.
+
+Package: snapd
+Pin: release a=*
+Pin-Priority: -10
+```
+
+### 4、apt 移除 snapd
+
+```shell
+sudo apt remove --autoremove snapd
+```
+
+### 5、删除 snap 文件
+
+```shell
+sudo rm -rf ~/snap /snap /var/snap /var/cache/snapd /var/lib/snapd
+```
+
+## 三、安装 Nala
 
 ### 1、更新
 
@@ -78,7 +125,7 @@ sudo nala update
 sudo nala upgrade
 ```
 
-## 三、安装 Gnome 桌面
+## 四、安装 Gnome 桌面
 
 ### 1、前提条件
 
@@ -103,7 +150,7 @@ Failed to get properties: Transport endpoint is not connected
 sudo apt install -y ubuntu-desktop
 ```
 
-## 四、安装 Xrdp
+## 五、安装 Xrdp
 
 ### 1、安装 xrdp
 
@@ -151,5 +198,45 @@ sudo ufw allow 3389
 
 ```shell
 sudo systemctl enable xrdp
+```
+
+## 六、VcXsrv 桌面连接
+
+### 1、下载安装 VcXsrv
+
+### 2、打开 Launch
+
+- One large window、-1
+- Disable access control
+
+### 3、添加配置文件
+
+```shell
+vim ~/.bashrc
+```
+
+```shell
+# VcXsrv 连接配置
+export DISPLAY=$(grep -m 1 nameserver /etc/resolv.conf | awk '{print $2}'):0
+export WAYLAND_DISPLAY=$DISPLAY
+export XDG_SESSION_TYPE=x11
+```
+
+```shell
+source ~/.bashrc
+```
+
+### 4、UIbuntu 中测试连通
+
+```shell
+xeyes
+```
+
+### 5、启动 Gnome 会话
+
+> 注意：下面的命令如果使用 sudo 执行会报错！
+
+```shell
+gnome-session
 ```
 
