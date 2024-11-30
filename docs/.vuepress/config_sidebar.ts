@@ -88,5 +88,6 @@ export const sideBar = sidebar({
     { text: "Git", link: "Git.md" },
     { text: "Maven", link: "Maven.md" },
     { text: "PyTorch", link: "PyTorch.md" },
+    { text: "Latex", link: "Latex.md" },
   ]
 });
