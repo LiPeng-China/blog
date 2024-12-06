@@ -82,6 +82,7 @@ export const sideBar = sidebar({
     { text: "Docker", link: "Docker.md" },
     { text: "1Panel", link: "1Panel.md" },
     { text: "Sdkman", link: "Sdkman.md" },
+    { text: "Environment", link: "Environment.md" },
     { text: "Linux命令", link: "Linux命令.md" },
   ],
   "/开发/": [
