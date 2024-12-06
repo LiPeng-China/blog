@@ -240,3 +240,42 @@ xeyes
 gnome-session
 ```
 
+## 七、安装 Rust 环境
+
+### 1、下载
+
+```shell
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+
+### 2、重启
+
+```shell
+sudo reboot
+```
+
+### 3、查看版本
+
+```shell
+rustc -Vv
+```
+
+```shell
+cargo --version
+```
+
+## 八、WSL 命令
+
+### 1、更换默认发新版
+
+```shell
+wsl --set-default Ubuntu-24.04
+```
+
+### 2、删除发行版
+
+```shell
+ wsl --unregister Ubuntu-22.04
+```
+
+## 

@@ -56,3 +56,29 @@ sdk current java
 sdk use java java 8.0.432-zulu
 ```
 
+## 三、安装 Maven
+
+### 1、查看 Maven 版本
+
+```shell
+sdk list maven
+```
+
+### 2、安装 Maven 3.8
+
+```shell
+sdk install maven 3.8.8
+```
+
+### 3、查看安装目录
+
+```shell
+sdk home maven 3.8.8
+```
+
+### 4、查看安装成功
+
+```shell
+mvn -v
+```
+
